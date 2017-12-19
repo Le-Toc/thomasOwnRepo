@@ -1,0 +1,515 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Aircraft" Collapsed="true">
+    <Position X="12.5" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QDQATECyYAQAAAglSGABAjTAAAGiAoAABKBAAAUAQFI=</HashCode>
+      <FileName>Aircraft.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Animation" Collapsed="true">
+    <Position X="21.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAVgCAAAIIiAAwAIAQAAAAgAAgAAiAgAAQAQEAEQ=</HashCode>
+      <FileName>Animation.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Application" Collapsed="true">
+    <Position X="23.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAgAAABAIAABEQQIAACIAQACAAAAQACAAAEAUAAA=</HashCode>
+      <FileName>Application.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BloomEffect" Collapsed="true">
+    <Position X="0.5" Y="11" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAEAAAAAAAAAIAAIKAAAAAAAAgAAAAAAAAQACSgAA=</HashCode>
+      <FileName>BloomEffect.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CommandQueue" Collapsed="true">
+    <Position X="25.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAIAABAQAA=</HashCode>
+      <FileName>CommandQueue.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EmitterNode" Collapsed="true">
+    <Position X="5.75" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAAAAAAACBAABAAAAAAAgAAAAAAAAAIAAA=</HashCode>
+      <FileName>EmitterNode.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Entity" Collapsed="true">
+    <Position X="12.5" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAABAAhAAEAEAIIEAAAAgAAgAAAAhABAAAAAA=</HashCode>
+      <FileName>Entity.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameOverState" Collapsed="true">
+    <Position X="10" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAABAAAAIgAAAAAAAAAAAAAAAAQAAEQAA=</HashCode>
+      <FileName>GameOverState.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameServer" Collapsed="true">
+    <Position X="21.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>oAJgAAEAIQAjwAIAgACAIAAREUABAUABQhAAAAAAQAA=</HashCode>
+      <FileName>GameServer.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameState" Collapsed="true">
+    <Position X="1" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAQAAABAAAAIAAAAAAAAAAAAAAAAAAAAEIAA=</HashCode>
+      <FileName>GameState.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="KeyBinding" Collapsed="true">
+    <Position X="23.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQAAAAAACAAAAACAAAAACEAAAAAACAACAAA=</HashCode>
+      <FileName>KeyBinding.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MenuState" Collapsed="true">
+    <Position X="5.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAAIABAAAgIAAAAAAAAAAAAAAAAAAAAEAAA=</HashCode>
+      <FileName>MenuState.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MultiplayerGameState" Collapsed="true">
+    <Position X="7.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gg0AAQAAEQAAgDCABAIQAQBQAAAAYAFAEAwBAAAkQQE=</HashCode>
+      <FileName>MultiplayerGameState.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MusicPlayer" Collapsed="true">
+    <Position X="25.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIEAAAAAAQAAAAAACACgAgAAAAAAgAAAAAA=</HashCode>
+      <FileName>MusicPlayer.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NetworkNode" Collapsed="true">
+    <Position X="8" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAAABAAAAAAAAAAAAAAAAAAAAAIAAAIAgAAA=</HashCode>
+      <FileName>NetworkNode.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ParticleNode" Collapsed="true">
+    <Position X="17" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAABIAAAQAhAAAAAABAAIAAAAgAAAIAAQBAAABA=</HashCode>
+      <FileName>ParticleNode.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PauseState" Collapsed="true">
+    <Position X="12.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IACAAAAAAAAKABAAAAIAEAAAAACAAAAAAAAAAAAEAAA=</HashCode>
+      <FileName>PauseState.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Pickup" Collapsed="true">
+    <Position X="10.25" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAAAAAAAQAABADAAAAAAAAAAAIAAAAAAABA=</HashCode>
+      <FileName>Pickup.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Player" Collapsed="true">
+    <Position X="27" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>UAAAAACAAAAAEBQQAAGAAAAAIAAAAAEQAAAQCQgAQAA=</HashCode>
+      <FileName>Player.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PostEffect" Collapsed="true">
+    <Position X="0.5" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAABABAAAAAAIAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>PostEffect.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Projectile" Collapsed="true">
+    <Position X="14.75" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAAAAAAAAAQAABAhAAAAAAAgAAEIAAAAAAIHA=</HashCode>
+      <FileName>Projectile.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ResourceHolder&lt;Resource, Identifier&gt;" Collapsed="true">
+    <Position X="4.5" Y="12" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAAAAAAACAAQAAAAAAAAAAEAAAAAAAAAAA=</HashCode>
+      <FileName>ResourceHolder.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SceneNode" Collapsed="true">
+    <Position X="10.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQCBAAAAFACAAAAABoBEQUAACBAAgBAAIAAAAAEQBA=</HashCode>
+      <FileName>SceneNode.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SettingsState" Collapsed="true">
+    <Position X="3.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAABAAIEhAAAAIAAAAAAAAAAQAAAAAAACAEAAA=</HashCode>
+      <FileName>SettingsState.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SoundNode" Collapsed="true">
+    <Position X="1.25" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAQAAAAAAAAAAIAAAAAIAAAAACAAA=</HashCode>
+      <FileName>SoundNode.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SoundPlayer" Collapsed="true">
+    <Position X="23.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAABAAAAEAAAAQAAAAAAABACAAAAAEAAAAAAAAAA=</HashCode>
+      <FileName>SoundPlayer.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpriteNode" Collapsed="true">
+    <Position X="3.5" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAQAAAAAAAABA=</HashCode>
+      <FileName>SpriteNode.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="State" Collapsed="true">
+    <Position X="7.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAgAAABAAAAIQAAAAAAAQAIQAAAABBBAkAQA=</HashCode>
+      <FileName>State.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StateStack" Collapsed="true">
+    <Position X="27" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQABAABAAQAKABIAAAgARAAQAAAAAIAAEQAA=</HashCode>
+      <FileName>StateStack.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TextNode" Collapsed="true">
+    <Position X="19.25" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAABAAAAAABCAAAAAAAAAAAAAAAAABA=</HashCode>
+      <FileName>TextNode.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TitleState" Collapsed="true">
+    <Position X="14.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAIEBAABAIAAAACAAAAAAAAAAAAAAAEAAA=</HashCode>
+      <FileName>TitleState.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="World" Collapsed="true">
+    <Position X="23.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAUYgQABhAiSAFAwoISABYAAEDJAoBACEAAABBljIA=</HashCode>
+      <FileName>World.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GUI::Button" Collapsed="true">
+    <Position X="0.75" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AFAAgEAAAAAAQBAARAIAQACCAAAAAAZAAAAAAAAAAAA=</HashCode>
+      <FileName>Button.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GUI::Component" Collapsed="true">
+    <Position X="3" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgoEIQAAAAABAAAAAAQBAAAAAAAARAAABAAAAAAAA=</HashCode>
+      <FileName>Component.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GUI::Container" Collapsed="true">
+    <Position X="3" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAQAAAAAABAAAAIEAAQAAAACAAxAAAAAAAAAAAA=</HashCode>
+      <FileName>Container.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GUI::Label" Collapsed="true">
+    <Position X="5.25" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAAAABAAAAIAAACCAAAAAAQAAAAAAAAAAAA=</HashCode>
+      <FileName>Label.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="sf::Event" Collapsed="true">
+    <Position X="27" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>c:\MPDP2\SFML-2.3.2-windows-vc14-32-bit (1)\SFML-2.3.2\include\SFML\Window\Event.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="sf::RenderTarget" Collapsed="true">
+    <Position X="9.75" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AkQAAIAAAIEBSAAAIAMAQgAAABAAAIEAAAIAABAIQEA=</HashCode>
+      <FileName>c:\MPDP2\SFML-2.3.2-windows-vc14-32-bit (1)\SFML-2.3.2\include\SFML\Graphics\RenderTarget.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="sf::RenderTexture" Collapsed="true">
+    <Position X="10.75" Y="10" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>oAAAEQACQIAAAgAAAAAAQgAAAAECAAAAAABABAAAAAA=</HashCode>
+      <FileName>c:\MPDP2\SFML-2.3.2-windows-vc14-32-bit (1)\SFML-2.3.2\include\SFML\Graphics\RenderTexture.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="sf::Shader" Collapsed="true">
+    <Position X="28.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAQQAMIMAQAAAAAAAIAAEAAAAAAAAAhAAQAAAIAAg=</HashCode>
+      <FileName>c:\MPDP2\SFML-2.3.2-windows-vc14-32-bit (1)\SFML-2.3.2\include\SFML\Graphics\Shader.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="sf::Texture" Collapsed="true">
+    <Position X="21.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAEQAAYMAAgABCACAIAgAAABBAAAAAAAJwBAIEAIg=</HashCode>
+      <FileName>c:\MPDP2\SFML-2.3.2-windows-vc14-32-bit (1)\SFML-2.3.2\include\SFML\Graphics\Texture.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="sf::Font" Collapsed="true">
+    <Position X="28.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>wAAAAAAAAGAAAgEAAAAIAEBC4AAAAAAIQEAwEAAmRAE=</HashCode>
+      <FileName>c:\MPDP2\SFML-2.3.2-windows-vc14-32-bit (1)\SFML-2.3.2\include\SFML\Graphics\Font.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="sf::SoundBuffer" Collapsed="true">
+    <Position X="21.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAQMAAQQAEAAKAAAACEIAEBgAAAAAAAAAAAyAAAEAIg=</HashCode>
+      <FileName>c:\MPDP2\SFML-2.3.2-windows-vc14-32-bit (1)\SFML-2.3.2\include\SFML\Audio\SoundBuffer.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="sf::RenderWindow" Collapsed="true">
+    <Position X="8.5" Y="10" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIBAAAAAAAAAQASAAAAAEAAgAAAAAAAAAAA=</HashCode>
+      <FileName>c:\MPDP2\SFML-2.3.2-windows-vc14-32-bit (1)\SFML-2.3.2\include\SFML\Graphics\RenderWindow.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="sf::Sprite" Collapsed="true">
+    <Position X="25.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQACBEAIAgACAAIAAAAAAAAAACAwAAAAgAIIAAA=</HashCode>
+      <FileName>c:\MPDP2\SFML-2.3.2-windows-vc14-32-bit (1)\SFML-2.3.2\include\SFML\Graphics\Sprite.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="sf::Text" Collapsed="true">
+    <Position X="28.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAhGJCAIAADABAIAAABAAAQAgAAIAAECiAhIAAA=</HashCode>
+      <FileName>c:\MPDP2\SFML-2.3.2-windows-vc14-32-bit (1)\SFML-2.3.2\include\SFML\Graphics\Text.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="AircraftMover" Collapsed="true">
+    <Position X="28.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABgAAAAAAAEAAAAAAAAAAAAAAAAAQAAAAAAAA=</HashCode>
+      <FileName>Player.cpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="AircraftFireTrigger" Collapsed="true">
+    <Position X="25.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAEAAEAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Player.cpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="AircraftMissileTrigger" Collapsed="true">
+    <Position X="27" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAABAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Player.cpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="Command" Collapsed="true">
+    <Position X="21.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAAAAAAAAAAAABAAAAAAAAAAAAAAIAAAAAAA=</HashCode>
+      <FileName>Command.hpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="Direction" Collapsed="true">
+    <Position X="23.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAACAAAAAAAEAAAAAAAAAAAABAAAA=</HashCode>
+      <FileName>DataTables.hpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="AircraftData" Collapsed="true">
+    <Position X="23.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAABAAgAAAAAAAAAAAAAEAwAEAAAAQAAAAAA=</HashCode>
+      <FileName>DataTables.hpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="ProjectileData" Collapsed="true">
+    <Position X="21.75" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAAAAAAAAAAAAAAAwAAAAAAQAAAAAA=</HashCode>
+      <FileName>DataTables.hpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="PickupData" Collapsed="true">
+    <Position X="28.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAQAAAAAA=</HashCode>
+      <FileName>DataTables.hpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="ParticleData" Collapsed="true">
+    <Position X="27" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAABAAAA=</HashCode>
+      <FileName>DataTables.hpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="Particle" Collapsed="true">
+    <Position X="25.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAAAAACAAAAAAABAAAA=</HashCode>
+      <FileName>Particle.hpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="GameActions::Action" Collapsed="true">
+    <Position X="21.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAABAAAAAAAAAAAAAAQ=</HashCode>
+      <FileName>NetworkProtocol.hpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Typedef Name="TextureHolder" Collapsed="true">
+    <Position X="1.5" Y="13" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ResourceIdentifiers.hpp</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="FontHolder" Collapsed="true">
+    <Position X="7.5" Y="12" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ResourceIdentifiers.hpp</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="ShaderHolder" Collapsed="true">
+    <Position X="4.5" Y="14" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ResourceIdentifiers.hpp</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="SoundBufferHolder" Collapsed="true">
+    <Position X="4.5" Y="10" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ResourceIdentifiers.hpp</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Enum Name="Category::Type" Collapsed="true">
+    <Position X="28.75" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAgACiAABAAAAAABAACIAAAAAAQAAAAAAAAUAIAA=</HashCode>
+      <FileName>Category.hpp</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="PlayerAction::Type" Collapsed="true">
+    <Position X="21.75" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAAAAAAAAAAAAAQAAAAEAAAIQgAAAAAAAAA=</HashCode>
+      <FileName>KeyBinding.hpp</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Server::PacketType" Collapsed="true">
+    <Position X="25.25" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAIAAAAAAQAEAAACAJABAAgQAAAAAAAAAAAAAQBAA=</HashCode>
+      <FileName>NetworkProtocol.hpp</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Client::PacketType" Collapsed="true">
+    <Position X="27" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAACAAABAQCAAAAAAAAAAAACAAAQA=</HashCode>
+      <FileName>NetworkProtocol.hpp</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="PlayerActions::Action" Collapsed="true">
+    <Position X="21.75" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEABAAAAAAAAAAAAAAAAAAAAAAEAAAIQgAAAAAAAAA=</HashCode>
+      <FileName>NetworkProtocol.hpp</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="GameActions::Type" Collapsed="true">
+    <Position X="23.5" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAA=</HashCode>
+      <FileName>NetworkProtocol.hpp</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Textures::ID" Collapsed="true">
+    <Position X="23.5" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAACAAAAAAAgCAAAAAAAAAAEAAAAAAAAAAEQAAAAAAA=</HashCode>
+      <FileName>ResourceIdentifiers.hpp</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Shaders::ID" Collapsed="true">
+    <Position X="25.25" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAIAAAAAAAAAAAAAAEAAAAAAAACAAAAAAAAAAA=</HashCode>
+      <FileName>ResourceIdentifiers.hpp</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Fonts::ID" Collapsed="true">
+    <Position X="27" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>ResourceIdentifiers.hpp</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Music::ID" Collapsed="true">
+    <Position X="28.75" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ResourceIdentifiers.hpp</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="SoundEffect::ID" Collapsed="true">
+    <Position X="21.75" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AMAAAAAAAAAgAwACAAAAAAAAAAAAAAAAAgAAAAAAAAA=</HashCode>
+      <FileName>ResourceIdentifiers.hpp</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="States::ID" Collapsed="true">
+    <Position X="23.5" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgoAAAAEAAAEAAAAAAAIAAAAgIEAAAgAAAABEAAAA=</HashCode>
+      <FileName>StateIdentifiers.hpp</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

@@ -1,0 +1,97 @@
+﻿  World.cpp
+  Utility.cpp
+  TitleState.cpp
+  TextNode.cpp
+  StateStack.cpp
+  State.cpp
+  SpriteNode.cpp
+  SoundPlayer.cpp
+  SoundNode.cpp
+  SettingsState.cpp
+  SceneNode.cpp
+  Projectile.cpp
+  PostEffect.cpp
+  Player.cpp
+  Pickup.cpp
+  PauseState.cpp
+  ParticleNode.cpp
+  NetworkNode.cpp
+  MusicPlayer.cpp
+  MultiplayerGameState.cpp
+  Generating Code...
+  Compiling...
+  MenuState.cpp
+  main.cpp
+  Label.cpp
+  KeyBinding.cpp
+  GameState.cpp
+  GameServer.cpp
+  GameOverState.cpp
+  Entity.cpp
+  EmitterNode.cpp
+  DataTables.cpp
+  Container.cpp
+c:\mpdp2\gd4classcode\gd4classcode\container.cpp(77): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+c:\mpdp2\gd4classcode\gd4classcode\container.cpp(104): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+  Component.cpp
+  CommandQueue.cpp
+  Command.cpp
+  Button.cpp
+  BloomEffect.cpp
+  Application.cpp
+  Animation.cpp
+  Aircraft.cpp
+  Generating Code...
+ParticleNode.obj : error LNK2001: unresolved external symbol "public: static class sf::Time const sf::Time::Zero" (?Zero@Time@sf@@2V12@B)
+TitleState.obj : error LNK2001: unresolved external symbol "public: static class sf::Time const sf::Time::Zero" (?Zero@Time@sf@@2V12@B)
+EmitterNode.obj : error LNK2001: unresolved external symbol "public: static class sf::Time const sf::Time::Zero" (?Zero@Time@sf@@2V12@B)
+GameOverState.obj : error LNK2001: unresolved external symbol "public: static class sf::Time const sf::Time::Zero" (?Zero@Time@sf@@2V12@B)
+GameServer.obj : error LNK2001: unresolved external symbol "public: static class sf::Time const sf::Time::Zero" (?Zero@Time@sf@@2V12@B)
+MultiplayerGameState.obj : error LNK2001: unresolved external symbol "public: static class sf::Time const sf::Time::Zero" (?Zero@Time@sf@@2V12@B)
+Aircraft.obj : error LNK2001: unresolved external symbol "public: static class sf::Time const sf::Time::Zero" (?Zero@Time@sf@@2V12@B)
+Animation.obj : error LNK2001: unresolved external symbol "public: static class sf::Time const sf::Time::Zero" (?Zero@Time@sf@@2V12@B)
+Application.obj : error LNK2001: unresolved external symbol "public: static class sf::Time const sf::Time::Zero" (?Zero@Time@sf@@2V12@B)
+DataTables.obj : error LNK2001: unresolved external symbol "public: static class sf::Time const sf::Time::Zero" (?Zero@Time@sf@@2V12@B)
+Application.obj : error LNK2019: unresolved external symbol "public: __cdecl sf::SoundBuffer::~SoundBuffer(void)" (??1SoundBuffer@sf@@QEAA@XZ) referenced in function "public: void * __cdecl sf::SoundBuffer::`scalar deleting destructor'(unsigned int)" (??_GSoundBuffer@sf@@QEAAPEAXI@Z)
+main.obj : error LNK2001: unresolved external symbol "public: __cdecl sf::SoundBuffer::~SoundBuffer(void)" (??1SoundBuffer@sf@@QEAA@XZ)
+SoundPlayer.obj : error LNK2001: unresolved external symbol "public: __cdecl sf::SoundBuffer::~SoundBuffer(void)" (??1SoundBuffer@sf@@QEAA@XZ)
+Application.obj : error LNK2019: unresolved external symbol "public: virtual __cdecl sf::Music::~Music(void)" (??1Music@sf@@UEAA@XZ) referenced in function "public: __cdecl MusicPlayer::~MusicPlayer(void)" (??1MusicPlayer@@QEAA@XZ)
+main.obj : error LNK2001: unresolved external symbol "public: virtual __cdecl sf::Music::~Music(void)" (??1Music@sf@@UEAA@XZ)
+MusicPlayer.obj : error LNK2001: unresolved external symbol "public: virtual __cdecl sf::Music::~Music(void)" (??1Music@sf@@UEAA@XZ)
+World.obj : error LNK2001: unresolved external symbol "public: static class sf::RenderStates const sf::RenderStates::Default" (?Default@RenderStates@sf@@2V12@B)
+PauseState.obj : error LNK2001: unresolved external symbol "public: static class sf::RenderStates const sf::RenderStates::Default" (?Default@RenderStates@sf@@2V12@B)
+SceneNode.obj : error LNK2001: unresolved external symbol "public: static class sf::RenderStates const sf::RenderStates::Default" (?Default@RenderStates@sf@@2V12@B)
+SettingsState.obj : error LNK2001: unresolved external symbol "public: static class sf::RenderStates const sf::RenderStates::Default" (?Default@RenderStates@sf@@2V12@B)
+TitleState.obj : error LNK2001: unresolved external symbol "public: static class sf::RenderStates const sf::RenderStates::Default" (?Default@RenderStates@sf@@2V12@B)
+Application.obj : error LNK2001: unresolved external symbol "public: static class sf::RenderStates const sf::RenderStates::Default" (?Default@RenderStates@sf@@2V12@B)
+GameOverState.obj : error LNK2001: unresolved external symbol "public: static class sf::RenderStates const sf::RenderStates::Default" (?Default@RenderStates@sf@@2V12@B)
+MenuState.obj : error LNK2001: unresolved external symbol "public: static class sf::RenderStates const sf::RenderStates::Default" (?Default@RenderStates@sf@@2V12@B)
+MultiplayerGameState.obj : error LNK2001: unresolved external symbol "public: static class sf::RenderStates const sf::RenderStates::Default" (?Default@RenderStates@sf@@2V12@B)
+MultiplayerGameState.obj : error LNK2001: unresolved external symbol "public: static class sf::Color const sf::Color::Black" (?Black@Color@sf@@2V12@B)
+MultiplayerGameState.obj : error LNK2001: unresolved external symbol "public: static class sf::Color const sf::Color::White" (?White@Color@sf@@2V12@B)
+MusicPlayer.obj : error LNK2019: unresolved external symbol "public: void __cdecl sf::SoundSource::setVolume(float)" (?setVolume@SoundSource@sf@@QEAAXM@Z) referenced in function "public: void __cdecl MusicPlayer::play(enum Music::ID)" (?play@MusicPlayer@@QEAAXW4ID@Music@@@Z)
+MusicPlayer.obj : error LNK2019: unresolved external symbol "public: void __cdecl sf::SoundStream::play(void)" (?play@SoundStream@sf@@QEAAXXZ) referenced in function "public: void __cdecl MusicPlayer::play(enum Music::ID)" (?play@MusicPlayer@@QEAAXW4ID@Music@@@Z)
+MusicPlayer.obj : error LNK2019: unresolved external symbol "public: void __cdecl sf::SoundStream::pause(void)" (?pause@SoundStream@sf@@QEAAXXZ) referenced in function "public: void __cdecl MusicPlayer::setPaused(bool)" (?setPaused@MusicPlayer@@QEAAX_N@Z)
+MusicPlayer.obj : error LNK2019: unresolved external symbol "public: void __cdecl sf::SoundStream::stop(void)" (?stop@SoundStream@sf@@QEAAXXZ) referenced in function "public: void __cdecl MusicPlayer::stop(void)" (?stop@MusicPlayer@@QEAAXXZ)
+MusicPlayer.obj : error LNK2019: unresolved external symbol "public: void __cdecl sf::SoundStream::setLoop(bool)" (?setLoop@SoundStream@sf@@QEAAX_N@Z) referenced in function "public: void __cdecl MusicPlayer::play(enum Music::ID)" (?play@MusicPlayer@@QEAAXW4ID@Music@@@Z)
+MusicPlayer.obj : error LNK2019: unresolved external symbol "public: __cdecl sf::Music::Music(void)" (??0Music@sf@@QEAA@XZ) referenced in function "public: __cdecl MusicPlayer::MusicPlayer(void)" (??0MusicPlayer@@QEAA@XZ)
+MusicPlayer.obj : error LNK2019: unresolved external symbol "public: bool __cdecl sf::Music::openFromFile(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)" (?openFromFile@Music@sf@@QEAA_NAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z) referenced in function "public: void __cdecl MusicPlayer::play(enum Music::ID)" (?play@MusicPlayer@@QEAAXW4ID@Music@@@Z)
+PostEffect.obj : error LNK2001: unresolved external symbol "struct sf::BlendMode const sf::BlendNone" (?BlendNone@sf@@3UBlendMode@1@B)
+SceneNode.obj : error LNK2001: unresolved external symbol "public: static class sf::Transform const sf::Transform::Identity" (?Identity@Transform@sf@@2V12@B)
+SceneNode.obj : error LNK2001: unresolved external symbol "public: static class sf::Color const sf::Color::Green" (?Green@Color@sf@@2V12@B)
+SceneNode.obj : error LNK2001: unresolved external symbol "public: static class sf::Color const sf::Color::Transparent" (?Transparent@Color@sf@@2V12@B)
+SoundPlayer.obj : error LNK2019: unresolved external symbol "public: void __cdecl sf::SoundSource::setPosition(float,float,float)" (?setPosition@SoundSource@sf@@QEAAXMMM@Z) referenced in function "public: void __cdecl SoundPlayer::play(enum SoundEffect::ID,class sf::Vector2<float>)" (?play@SoundPlayer@@QEAAXW4ID@SoundEffect@@V?$Vector2@M@sf@@@Z)
+SoundPlayer.obj : error LNK2019: unresolved external symbol "public: void __cdecl sf::SoundSource::setMinDistance(float)" (?setMinDistance@SoundSource@sf@@QEAAXM@Z) referenced in function "public: void __cdecl SoundPlayer::play(enum SoundEffect::ID,class sf::Vector2<float>)" (?play@SoundPlayer@@QEAAXW4ID@SoundEffect@@V?$Vector2@M@sf@@@Z)
+SoundPlayer.obj : error LNK2019: unresolved external symbol "public: void __cdecl sf::SoundSource::setAttenuation(float)" (?setAttenuation@SoundSource@sf@@QEAAXM@Z) referenced in function "public: void __cdecl SoundPlayer::play(enum SoundEffect::ID,class sf::Vector2<float>)" (?play@SoundPlayer@@QEAAXW4ID@SoundEffect@@V?$Vector2@M@sf@@@Z)
+SoundPlayer.obj : error LNK2019: unresolved external symbol "public: __cdecl sf::Sound::Sound(void)" (??0Sound@sf@@QEAA@XZ) referenced in function "public: void __cdecl SoundPlayer::play(enum SoundEffect::ID,class sf::Vector2<float>)" (?play@SoundPlayer@@QEAAXW4ID@SoundEffect@@V?$Vector2@M@sf@@@Z)
+SoundPlayer.obj : error LNK2019: unresolved external symbol "public: __cdecl sf::Sound::Sound(class sf::Sound const &)" (??0Sound@sf@@QEAA@AEBV01@@Z) referenced in function "public: static void __cdecl std::_Default_allocator_traits<class std::allocator<struct std::_List_node<class sf::Sound,void *> > >::construct<class sf::Sound,class sf::Sound>(class std::allocator<struct std::_List_node<class sf::Sound,void *> > &,class sf::Sound * const,class sf::Sound &&)" (??$construct@VSound@sf@@V12@@?$_Default_allocator_traits@V?$allocator@U?$_List_node@VSound@sf@@PEAX@std@@@std@@@std@@SAXAEAV?$allocator@U?$_List_node@VSound@sf@@PEAX@std@@@1@QEAVSound@sf@@$$QEAV34@@Z)
+SoundPlayer.obj : error LNK2019: unresolved external symbol "public: virtual __cdecl sf::Sound::~Sound(void)" (??1Sound@sf@@UEAA@XZ) referenced in function "public: void __cdecl SoundPlayer::play(enum SoundEffect::ID,class sf::Vector2<float>)" (?play@SoundPlayer@@QEAAXW4ID@SoundEffect@@V?$Vector2@M@sf@@@Z)
+SoundPlayer.obj : error LNK2019: unresolved external symbol "public: void __cdecl sf::Sound::play(void)" (?play@Sound@sf@@QEAAXXZ) referenced in function "public: void __cdecl SoundPlayer::play(enum SoundEffect::ID,class sf::Vector2<float>)" (?play@SoundPlayer@@QEAAXW4ID@SoundEffect@@V?$Vector2@M@sf@@@Z)
+SoundPlayer.obj : error LNK2019: unresolved external symbol "public: void __cdecl sf::Sound::setBuffer(class sf::SoundBuffer const &)" (?setBuffer@Sound@sf@@QEAAXAEBVSoundBuffer@2@@Z) referenced in function "public: void __cdecl SoundPlayer::play(enum SoundEffect::ID,class sf::Vector2<float>)" (?play@SoundPlayer@@QEAAXW4ID@SoundEffect@@V?$Vector2@M@sf@@@Z)
+SoundPlayer.obj : error LNK2019: unresolved external symbol "public: enum sf::SoundSource::Status __cdecl sf::Sound::getStatus(void)const " (?getStatus@Sound@sf@@QEBA?AW4Status@SoundSource@2@XZ) referenced in function "public: bool __cdecl <lambda_a1788a65e57900b21cbdc608e7931dbc>::operator()(class sf::Sound const &)const " (??R<lambda_a1788a65e57900b21cbdc608e7931dbc>@@QEBA_NAEBVSound@sf@@@Z)
+SoundPlayer.obj : error LNK2019: unresolved external symbol "public: __cdecl sf::SoundBuffer::SoundBuffer(void)" (??0SoundBuffer@sf@@QEAA@XZ) referenced in function "public: void __cdecl ResourceHolder<class sf::SoundBuffer,enum SoundEffect::ID>::load(enum SoundEffect::ID,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)" (?load@?$ResourceHolder@VSoundBuffer@sf@@W4ID@SoundEffect@@@@QEAAXW4ID@SoundEffect@@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z)
+SoundPlayer.obj : error LNK2019: unresolved external symbol "public: bool __cdecl sf::SoundBuffer::loadFromFile(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)" (?loadFromFile@SoundBuffer@sf@@QEAA_NAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z) referenced in function "public: void __cdecl ResourceHolder<class sf::SoundBuffer,enum SoundEffect::ID>::load(enum SoundEffect::ID,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)" (?load@?$ResourceHolder@VSoundBuffer@sf@@W4ID@SoundEffect@@@@QEAAXW4ID@SoundEffect@@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z)
+SoundPlayer.obj : error LNK2019: unresolved external symbol "public: static void __cdecl sf::Listener::setPosition(float,float,float)" (?setPosition@Listener@sf@@SAXMMM@Z) referenced in function "public: void __cdecl SoundPlayer::setListenerPosition(class sf::Vector2<float>)" (?setListenerPosition@SoundPlayer@@QEAAXV?$Vector2@M@sf@@@Z)
+SoundPlayer.obj : error LNK2019: unresolved external symbol "public: static class sf::Vector3<float> __cdecl sf::Listener::getPosition(void)" (?getPosition@Listener@sf@@SA?AV?$Vector3@M@2@XZ) referenced in function "public: class sf::Vector2<float> __cdecl SoundPlayer::getListenerPosition(void)const " (?getListenerPosition@SoundPlayer@@QEBA?AV?$Vector2@M@sf@@XZ)
+SoundPlayer.obj : error LNK2019: unresolved external symbol "public: static void __cdecl sf::Listener::setDirection(float,float,float)" (?setDirection@Listener@sf@@SAXMMM@Z) referenced in function "public: __cdecl SoundPlayer::SoundPlayer(void)" (??0SoundPlayer@@QEAA@XZ)
+C:\MPDP2\gd4classcode\x64\Debug\GD4ClassCode.exe : fatal error LNK1120: 31 unresolved externals
